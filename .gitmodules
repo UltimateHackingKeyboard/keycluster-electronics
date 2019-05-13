@@ -1,0 +1,9 @@
+[submodule "libs/ugl"]
+	path = libs/ugl
+	url = https://ipanti@bitbucket.org/mondalaci/ugl-kicad-lib.git
+[submodule "libs/kiibohd"]
+	path = libs/kiibohd
+	url = https://github.com/kiibohd/pcb.git
+[submodule "libs/opendous"]
+	path = libs/opendous
+	url = https://github.com/UltimateHackingKeyboard/opendous-kicad-lib.git
