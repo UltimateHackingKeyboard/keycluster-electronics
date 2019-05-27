@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 37)
+    (drawings 38)
     (tracks 0)
     (zones 0)
     (modules 2)
@@ -34,8 +34,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.254)
-    (segment_width 0.2)
-    (edge_width 0.1)
     (via_size 0.889)
     (via_drill 0.635)
     (via_min_size 0.889)
@@ -45,6 +43,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.508)
     (uvia_min_drill 0.127)
+    (edge_width 0.1)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -54,7 +54,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFEFFF)
     (pcbplotparams
       (layerselection 0x00030_ffffffff)
       (usegerberextensions true)
@@ -157,6 +157,9 @@
     (pad 2 smd rect (at 2.225 1.75) (size 0.7 1.1) (layers F.Cu F.Paste F.Mask))
   )
 
+  (gr_text keycluster_trackball_0.1.0 (at 200 155.3) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
   (gr_circle (center 200 150) (end 200 150.5) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 193.000061 155.499932) (end 192.5 155.5) (angle -89.94233769) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 206.999932 155.499932) (end 207 156) (angle -89.94656462) (layer Edge.Cuts) (width 0.01))
