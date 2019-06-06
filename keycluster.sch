@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "UHK 60 v2 - Left Half"
+Title "UHK 60 Keycluster main"
 Date ""
-Rev "2.0.0"
+Rev "0.1.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
