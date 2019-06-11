@@ -102,8 +102,6 @@ Wire Wire Line
 	1350 4000 1650 4000
 Wire Wire Line
 	1100 3650 1650 3650
-Wire Wire Line
-	4250 1100 4400 1100
 $Comp
 L ICEDLeft:PWR_FLAG #FLG08
 U 1 1 5768A62D
@@ -177,8 +175,6 @@ Wire Wire Line
 	3500 2200 4100 2200
 Wire Wire Line
 	4750 1100 4750 1350
-Wire Wire Line
-	4050 1300 4050 1100
 Wire Wire Line
 	1100 3950 1250 3950
 Wire Wire Line
@@ -492,8 +488,6 @@ F 3 "" H 7300 5350 60  0001 C CNN
 	1    7300 5350
 	0    1    1    0   
 $EndComp
-Text Notes 3700 1015 0    40   ~ 0
-reed switch
 Text Notes 5600 800  0    40   ~ 0
 test LED
 $Comp
@@ -591,17 +585,6 @@ F 1 "+3V3" H 4400 1050 40  0000 C CNN
 F 2 "" H 4400 900 50  0000 C CNN
 F 3 "" H 4400 900 50  0000 C CNN
 	1    4400 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 57779ED4
-P 4050 1300
-F 0 "#PWR027" H 4050 1300 30  0001 C CNN
-F 1 "GND" H 4050 1230 30  0001 C CNN
-F 2 "" H 4050 1300 60  0000 C CNN
-F 3 "" H 4050 1300 60  0000 C CNN
-	1    4050 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -841,17 +824,6 @@ F 3 "" H 4400 1300 60  0000 C CNN
 	1    4400 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L ugl:SPST SW1
-U 1 1 5768B03A
-P 4150 1100
-F 0 "SW1" H 4150 1216 40  0000 C CNN
-F 1 "CT05-3050-G1" H 4150 1216 40  0001 C CNN
-F 2 "UGL:Reed_Switch_CT05-3050-G1" H 4150 1100 60  0001 C CNN
-F 3 "" H 4150 1100 60  0000 C CNN
-	1    4150 1100
-	1    0    0    -1  
-$EndComp
 Text Notes 3300 700  0    60   ~ 12
 MCU
 $Comp
@@ -948,7 +920,7 @@ U 1 1 5BCEC0CB
 P 1500 6100
 F 0 "P7" V 1450 6100 60  0000 C CNN
 F 1 "CONN_10" V 1550 6100 60  0000 C CNN
-F 2 "UGL:Tag_Connect_2x5_Header_With_Legs" H 1500 5900 60  0001 C CNN
+F 2 "UGL:Tag_Connect_2x5_Header_With_No_Legs" H 1500 5900 60  0001 C CNN
 F 3 "" H 1500 5900 60  0000 C CNN
 	1    1500 6100
 	-1   0    0    -1  
