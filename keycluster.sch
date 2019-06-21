@@ -1536,11 +1536,11 @@ Wire Wire Line
 	4300 6300 4400 6300
 Wire Wire Line
 	4400 6300 4400 6400
-Text Label 4300 5800 0    40   ~ 0
+Text Label 4300 6000 0    40   ~ 0
 TB_UP
 Text Label 4300 5900 0    40   ~ 0
 TB_DOWN
-Text Label 4300 6000 0    40   ~ 0
+Text Label 4300 5800 0    40   ~ 0
 TB_LEFT
 Text Label 4300 6100 0    40   ~ 0
 TB_RIGHT
@@ -1613,7 +1613,7 @@ F 3 "" H 7300 5900 60  0001 C CNN
 $EndComp
 Text Label 5700 2200 0    40   ~ 0
 TB_LEFT
-Text Label 4100 2000 2    40   ~ 0
+Text Label 4100 1900 2    40   ~ 0
 TB_RIGHT
 NoConn ~ 5700 2100
 $Comp
@@ -1631,7 +1631,7 @@ Text Label 4100 2300 2    40   ~ 0
 TB_UP
 Text Label 4100 2400 2    40   ~ 0
 TB_DOWN
-Text Label 4100 1900 2    40   ~ 0
+Text Label 4100 2000 2    40   ~ 0
 TB_BTN
 $Comp
 L ugl:RGB_LED D_RK1
