@@ -12,12 +12,12 @@
   (page A4)
   (title_block
     (title "UHK 60 Key cluster main board")
-    (rev 0.1.0)
+    (rev 1.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -25,8 +25,8 @@
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (38 B.Mask user)
+    (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -1759,7 +1759,7 @@
     )
   )
 
-  (gr_text "UHK 60\nKey cluster v0.1.0" (at 152.309512 92.310302 90) (layer F.SilkS)
+  (gr_text "UHK 60\nKey cluster v1.0.0" (at 152.309512 92.310302 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 129.009512 114.110302) (end 132.809512 113.310302) (layer B.SilkS) (width 0.2))
@@ -2520,7 +2520,7 @@
   (segment (start 144.103712 123.124102) (end 141.792583 120.812973) (width 0.254) (layer F.Cu) (net 57))
   (segment (start 144.103712 124.267102) (end 144.103712 123.124102) (width 0.254) (layer F.Cu) (net 57))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D121C3E) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D122B26) (hatch edge 0.508)
     (connect_pads (clearance 0.3048))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

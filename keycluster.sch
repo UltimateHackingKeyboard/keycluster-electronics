@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "UHK 60 Keycluster main"
 Date ""
-Rev "0.1.0"
+Rev "1.0.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
