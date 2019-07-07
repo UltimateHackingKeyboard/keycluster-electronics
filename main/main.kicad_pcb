@@ -2557,7 +2557,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 120 76) (xy 120 137) (xy 178 137) (xy 178 76)
+        (xy 124.009512 80.010302) (xy 124.009512 135.010302) (xy 171.509512 135.010302) (xy 171.509512 80.010302)
       )
     )
     (filled_polygon
