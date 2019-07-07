@@ -11,14 +11,14 @@
 
   (page A4)
   (title_block
-    (title "UHK 60 Key cluster main board")
+    (title "UHK Key Cluster - Main Board")
     (rev 1.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)

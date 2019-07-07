@@ -1,11 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "UHK 60 Keycluster main"
+Title "UHK Key Cluster - Main Board"
 Date ""
 Rev "1.0.0"
 Comp "Ultimate Gadget Laboratories Kft."

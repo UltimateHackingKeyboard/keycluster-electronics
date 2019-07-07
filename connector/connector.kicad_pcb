@@ -11,8 +11,8 @@
 
   (page A4)
   (title_block
-    (title "Ultimate Hacking Keyboard - Connector Boards")
-    (rev 5)
+    (title "UHK Key Cluster - Connector Board")
+    (rev 1.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
