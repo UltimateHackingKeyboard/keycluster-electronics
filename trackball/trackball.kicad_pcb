@@ -11,13 +11,13 @@
 
   (page A3)
   (title_block
-    (title "UHK Key Cluster - Trackball Board")
+    (title "UHK Key Cluster Module - Trackball Board")
     (rev 1.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -69,7 +69,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFEFEF)
+    (visible_elements 7FFFEF6F)
     (pcbplotparams
       (layerselection 0x00030_ffffffff)
       (usegerberextensions true)

@@ -1,3 +1,5 @@
 *.kicad_pcb-bak
 fp-info-cache
 gerbers
+*-cache.lib
+*.bak
