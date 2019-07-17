@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -903,7 +902,7 @@ U 1 1 5BCEC0CB
 P 1300 6100
 F 0 "P7" V 1250 6100 60  0000 C CNN
 F 1 "CONN_10" V 1350 6100 60  0000 C CNN
-F 2 "UGL:Tag_Connect_2x5_Header_With_No_Legs" H 1300 5900 60  0001 C CNN
+F 2 "UGL:Tag_Connect_2x5_Header_With_No_Legs_Parallel_Numbering" H 1300 5900 60  0001 C CNN
 F 3 "" H 1300 5900 60  0000 C CNN
 	1    1300 6100
 	-1   0    0    -1  
