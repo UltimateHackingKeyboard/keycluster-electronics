@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.3-ffb9f22~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 121)
+    (drawings 125)
     (tracks 678)
     (zones 0)
     (modules 62)
@@ -17,7 +17,7 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -284,12 +284,12 @@
       (net 5 /KEY_MLEFT))
   )
 
-  (module UGL:Tag_Connect_2x5_Header_With_No_Legs_Parallel_Numbering locked (layer B.Cu) (tedit 5D2DC950) (tstamp 5D2F3375)
+  (module UGL:Tag_Connect_2x5_Header_With_No_Legs_Parallel_Numbering locked (layer B.Cu) (tedit 5D2DC950) (tstamp 5D48911D)
     (at 152.209512 121.210302 150)
     (tags "Tag-Connect TC2050")
     (path /5BCEC0CB)
     (attr virtual)
-    (fp_text reference P7 (at 0.1 2.6 150) (layer B.SilkS)
+    (fp_text reference P7 (at -5.76673 0.211731 150) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_10 (at 0 -2.6 150) (layer B.SilkS) hide
@@ -534,10 +534,10 @@
     (at 138.709512 118.110302)
     (path /577395C1)
     (attr smd)
-    (fp_text reference C12 (at 2.1 1 270) (layer B.SilkS)
+    (fp_text reference C12 (at 2.5 0 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 1uF (at 2.5 3.1 90) (layer B.SilkS)
+    (fp_text value 1uF (at 2.5 2.5 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.4 0.5) (end 0.4 0.5) (layer B.SilkS) (width 0.127))
@@ -629,7 +629,7 @@
     (fp_text reference R8 (at 1.8 0.5) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 47K (at 3.1 1) (layer B.SilkS)
+    (fp_text value 47K (at 1.8 -1.7) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.4 -0.5) (end -0.4 -0.5) (layer B.SilkS) (width 0.127))
@@ -860,7 +860,7 @@
     (fp_text reference TP_VCC_BOTTOM1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value VCC_B (at 0 2.810302 90) (layer B.SilkS)
+    (fp_text value VCC_B (at 0.109512 2.510302 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -892,7 +892,7 @@
     (fp_text reference TP_SWDIO1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value SWDIO (at -1.3 1.7 90) (layer B.SilkS)
+    (fp_text value SWDIO (at -1.3 2.8 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -915,7 +915,7 @@
       (net 24 /LED_SW1))
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 5D11C3D3) (tstamp 5D0A837A)
+  (module UGL:Test_Point (layer B.Cu) (tedit 5D11C3D3) (tstamp 5D4892B9)
     (at 153.609512 119.010302)
     (descr FID)
     (tags FIDUCIAL)
@@ -988,7 +988,7 @@
     (fp_text reference TP_5V1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 5V (at 0.109512 1.210302 180) (layer B.SilkS)
+    (fp_text value 5V (at 0.109512 1.410302 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -1011,7 +1011,7 @@
       (net 18 /LED_SW2))
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D0A8332)
+  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D4899C1)
     (at 139.509512 119.410302)
     (descr FID)
     (tags FIDUCIAL)
@@ -1020,7 +1020,7 @@
     (fp_text reference TP_3.3V1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 3.3V (at -0.2 1.9 90) (layer B.SilkS)
+    (fp_text value 3.3V (at -0.3 1.9 80) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -1075,7 +1075,7 @@
       (net 17 /SCL))
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D0A8302)
+  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D4894A4)
     (at 131 118.3)
     (descr FID)
     (tags FIDUCIAL)
@@ -1084,7 +1084,7 @@
     (fp_text reference TP_SDA_BOTTOM1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value SDA_B (at -1.190488 0.810302 90) (layer B.SilkS)
+    (fp_text value SDA_B (at -1.390488 1.910302 50) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -1123,7 +1123,7 @@
       (net 20 /TEST_LED))
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D0A82DE)
+  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D489B67)
     (at 148.009512 117.910302)
     (descr FID)
     (tags FIDUCIAL)
@@ -1132,7 +1132,7 @@
     (fp_text reference TP_SWDCLK1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value SWDCLK (at -0.5 -2) (layer B.SilkS)
+    (fp_text value SWDCLK (at -0.5 -1.2) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -1155,7 +1155,7 @@
       (net 7 /RESET))
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D0A81E8)
+  (module UGL:Test_Point (layer B.Cu) (tedit 58398319) (tstamp 5D48959C)
     (at 128.209512 118.810302)
     (descr FID)
     (tags FIDUCIAL)
@@ -1164,7 +1164,7 @@
     (fp_text reference TP_KEY_MLEFT1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value KML (at -1.8 -0.9 180) (layer B.SilkS)
+    (fp_text value KML (at -1.7 -0.9 150) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -1212,7 +1212,7 @@
     (fp_text reference TP_KEY_MRIGHT1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value KMR (at 0 -1.9 180) (layer B.SilkS)
+    (fp_text value KMR (at -1.9 0.1 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -1555,7 +1555,7 @@
     )
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 5D0CD387) (tstamp 5D21C513)
+  (module UGL:Test_Point (layer B.Cu) (tedit 5D0CD387) (tstamp 5D489773)
     (at 129.8 121.8)
     (descr FID)
     (tags FIDUCIAL)
@@ -1564,14 +1564,14 @@
     (fp_text reference TP_SCL_BOTTOM1 (at 0 1.3) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value SCL_B (at -0.590488 1.310302 -18) (layer B.SilkS)
+    (fp_text value SCL_B (at -2.190488 1.010302 20) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers B.Cu B.Mask)
       (net 2 /SCL_BOTTOM))
   )
 
-  (module UGL:SM0603 (layer B.Cu) (tedit 5C6C58A5) (tstamp 5D21E768)
+  (module UGL:SM0603 (layer B.Cu) (tedit 5C6C58A5) (tstamp 5D48A071)
     (at 160.009512 104.010302)
     (path /5C8B4427)
     (attr smd)
@@ -1759,6 +1759,10 @@
     )
   )
 
+  (gr_line (start 158.809512 102.510302) (end 159.509512 103.210302) (layer B.SilkS) (width 0.15))
+  (gr_line (start 158.809512 101.610302) (end 158.809512 102.510302) (layer B.SilkS) (width 0.15))
+  (gr_line (start 142.209512 117.210302) (end 142.709512 116.710302) (layer B.SilkS) (width 0.15))
+  (gr_line (start 142.209512 117.410302) (end 142.209512 117.210302) (layer B.SilkS) (width 0.15))
   (gr_text "U1 P/N:" (at 154.709512 130.510302 343) (layer B.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
@@ -1988,7 +1992,7 @@
   (segment (start 127.254 102.3112) (end 126.5428 103.0224) (width 0.762) (layer B.Cu) (net 4) (tstamp 5D0A8695))
   (segment (start 133.7 114.95) (end 133.75 115) (width 0.508) (layer B.Cu) (net 4) (tstamp 5D0A869E))
   (segment (start 128.519999 113.991199) (end 131.241199 113.991199) (width 0.762) (layer B.Cu) (net 4) (tstamp 5D0A86A1))
-  (segment (start 126.5428 103.0224) (end 126.5428 112.014) (width 0.762) (layer B.Cu) (net 4) (tstamp 5D0A86BF))
+  (segment (start 126.5428 103.0224) (end 126.5428 112.014) (width 0.762) (layer B.Cu) (net 4) (tstamp 5D48A1D5))
   (segment (start 125.9 102.3) (end 127.2682 102.3) (width 0.762) (layer F.Cu) (net 4) (tstamp 5D0A86C2))
   (segment (start 126.5428 112.014) (end 128.519999 113.991199) (width 0.762) (layer B.Cu) (net 4) (tstamp 5D0A86CB))
   (segment (start 127.2682 102.3) (end 127.2794 102.3112) (width 0.762) (layer F.Cu) (net 4) (tstamp 5D0A86CE))
