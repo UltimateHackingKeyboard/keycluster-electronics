@@ -1,6 +1,6 @@
-update=Sun 07 Jul 2019 02:55:58 CEST
+update=Tue 06 Aug 2019 22:19:18 CEST
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -57,7 +57,7 @@ CopperTextSizeH=1.5
 CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
-EdgeCutLineWidth=0.09999999999999999
+EdgeCutLineWidth=0.01
 CourtyardLineWidth=0.05
 OthersLineWidth=0.15
 OthersTextSizeV=1
