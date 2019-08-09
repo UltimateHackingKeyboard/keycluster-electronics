@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "UHK Key Cluster Module - Main Board"
 Date ""
-Rev "1.0.0"
+Rev "1.1.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
