@@ -534,6 +534,7 @@
 
   (module UGL:UHK_Logo_12x3.4_mm (layer B.Cu) (tedit 0) (tstamp 5D4B556A)
     (at 152.709512 88.110302 270)
+    (attr virtual)
     (fp_text reference G*** (at 0 0 270) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -1312,7 +1313,6 @@
   (module ugl:UHK_Connector_TrackBall_Pcb locked (layer F.Cu) (tedit 5CEBE47A) (tstamp 5D0A8158)
     (at 123.8 100)
     (path /5768A627)
-    (attr virtual)
     (fp_text reference P2 (at 0.9 19.2) (layer Cmts.User)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
