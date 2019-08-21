@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -47,8 +47,6 @@
     (zone_clearance 0.3048)
     (zone_45_only no)
     (trace_min 0.2032)
-    (segment_width 0.1)
-    (edge_width 0.01)
     (via_size 1.0668)
     (via_drill 0.7112)
     (via_min_size 0.7112)
@@ -60,6 +58,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.508)
     (uvia_min_drill 0.127)
+    (edge_width 0.01)
+    (segment_width 0.1)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -123,8 +123,8 @@
     (via_drill 0.7112)
     (uvia_dia 0.7112)
     (uvia_drill 0.381)
-    (diff_pair_gap 0.254)
     (diff_pair_width 0.254)
+    (diff_pair_gap 0.254)
     (add_net +3V3)
     (add_net /TB_BTN)
     (add_net /TB_DOWN)
@@ -565,7 +565,7 @@
   (gr_arc (start 206.999958 152.806915) (end 207.5 152.806897) (angle -74) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C8C))
   (gr_arc (start 206.999932 155.099935) (end 207 155.600003) (angle -89.9) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C8B))
   (gr_arc (start 193.000042 152.806915) (end 192.862183 152.32626) (angle -74) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C8A))
-  (gr_arc (start 194.5001 144.929701) (end 194 144.92973) (angle -15.3) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C89))
+  (gr_arc (start 194.5001 144.929701) (end 194 144.92973) (angle -15.97224935) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C89))
   (gr_arc (start 205.4999 144.929701) (end 205.980629 145.067548) (angle -16) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C87))
   (gr_line (start 207 155.600003) (end 193 155.600003) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C86))
   (gr_line (start 207.5 152.806897) (end 207.5 155.100003) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C85))
