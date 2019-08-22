@@ -1,4 +1,4 @@
-update=Tue 06 Aug 2019 23:04:35 CEST
+update=Thu 22 Aug 2019 12:02:23 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -78,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -248,7 +248,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1778
+Clearance=0.25
 TrackWidth=0.2032
 ViaDiameter=1.0668
 ViaDrill=0.7112
