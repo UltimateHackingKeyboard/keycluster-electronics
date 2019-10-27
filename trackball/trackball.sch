@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:trackball-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -89,17 +89,6 @@ F 3 "" H 6900 4500 60  0000 C CNN
 	1    6900 4500
 	0    1    1    0   
 $EndComp
-$Comp
-L ugl:R R5
-U 1 1 5D14095C
-P 6900 4200
-F 0 "R5" H 6900 4270 40  0000 C CNN
-F 1 "10K" H 6900 4130 40  0000 C CNN
-F 2 "UGL:SM0603" H 6900 4200 60  0001 C CNN
-F 3 "" H 6900 4200 60  0000 C CNN
-	1    6900 4200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7350 3700 7100 3700
 Wire Wire Line
@@ -107,10 +96,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 4350 6900 4350
 Wire Wire Line
-	6900 4350 6900 4300
-Wire Wire Line
 	6900 4350 6900 4400
-Connection ~ 6900 4350
 $Comp
 L power:GND #PWR08
 U 1 1 5D148034
@@ -271,36 +257,8 @@ Wire Wire Line
 Connection ~ 4400 3100
 Wire Wire Line
 	4400 3100 4700 3100
-$Comp
-L power:+3V3 #PWR07
-U 1 1 5D160D9F
-P 6900 4100
-F 0 "#PWR07" H 6900 3950 50  0001 C CNN
-F 1 "+3V3" H 6900 4250 40  0000 C CNN
-F 2 "" H 6900 4100 50  0000 C CNN
-F 3 "" H 6900 4100 50  0000 C CNN
-	1    6900 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ugl:C C5
-U 1 1 5D1232D1
-P 6650 4500
-F 0 "C5" H 6650 4600 40  0000 C CNN
-F 1 "0.1uF" H 6650 4390 40  0000 C CNN
-F 2 "UGL:SM0603" H 6650 4500 60  0001 C CNN
-F 3 "" H 6650 4500 60  0000 C CNN
-	1    6650 4500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6900 4600 6900 4700
-Wire Wire Line
-	6900 4350 6650 4350
-Wire Wire Line
-	6650 4350 6650 4400
-Wire Wire Line
-	6650 4600 6650 4700
 Wire Wire Line
 	6650 4700 6900 4700
 Connection ~ 6900 4700
@@ -385,5 +343,4 @@ F 3 "" H 6650 4700 60  0000 C CNN
 	1    6650 4700
 	-1   0    0    1   
 $EndComp
-Connection ~ 6650 4700
 $EndSCHEMATC
