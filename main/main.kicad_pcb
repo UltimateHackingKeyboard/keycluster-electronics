@@ -17,7 +17,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -75,7 +75,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0.009512 0.010302)
     (grid_origin 0.009512 0.010302)
-    (visible_elements 7FFFFF7F)
+    (visible_elements 7FFFEF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -323,7 +323,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   )
 
-  (module UGL:UHK_Connector_TrackBall_Pcb locked (layer F.Cu) (tedit 5DB58079) (tstamp 5D0A8158)
+  (module UGL:UHK_Connector_TrackBall_Pcb locked (layer F.Cu) (tedit 5DB58079) (tstamp 5DB613B5)
     (at 123.8 100)
     (path /5768A627)
     (attr virtual)
