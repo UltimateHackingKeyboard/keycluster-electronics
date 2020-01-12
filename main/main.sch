@@ -801,9 +801,9 @@ Text Label 7500 2700 0    50   ~ 0
 TPM0_CH1
 Text Label 7500 2800 0    50   ~ 0
 TPM0_CH2
-Text Label 7500 2900 0    50   ~ 0
-TPM0_CH3
 Text Label 7500 3000 0    50   ~ 0
+TPM0_CH3
+Text Label 7500 2900 0    50   ~ 0
 TPM0_CH4
 Text Label 7500 3100 0    50   ~ 0
 TPM0_CH5
