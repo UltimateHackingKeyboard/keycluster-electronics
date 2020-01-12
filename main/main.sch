@@ -671,13 +671,13 @@ Text Label 3900 6250 0    40   ~ 0
 TB_RIGHT
 Text Label 3900 6350 0    40   ~ 0
 TB_BTN
-Text Label 3800 2200 2    40   ~ 0
+Text Label 3800 2000 2    40   ~ 0
 TB_LEFT
 Text Label 3800 2300 2    40   ~ 0
 TB_RIGHT
-Text Label 3800 2000 2    40   ~ 0
-TB_UP
 Text Label 3800 2100 2    40   ~ 0
+TB_UP
+Text Label 3800 2200 2    40   ~ 0
 TB_DOWN
 Text Label 4300 3000 3    40   ~ 0
 TB_BTN
