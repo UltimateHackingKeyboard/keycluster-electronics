@@ -128,12 +128,12 @@ SWDIO
 $Comp
 L power:GND #PWR030
 U 1 1 577FB0E0
-P 5050 3450
-F 0 "#PWR030" H 5050 3450 30  0001 C CNN
-F 1 "GND" H 5050 3380 30  0001 C CNN
-F 2 "" H 5050 3450 60  0001 C CNN
-F 3 "" H 5050 3450 60  0001 C CNN
-	1    5050 3450
+P 5100 3450
+F 0 "#PWR030" H 5100 3450 30  0001 C CNN
+F 1 "GND" H 5100 3380 30  0001 C CNN
+F 2 "" H 5100 3450 60  0001 C CNN
+F 3 "" H 5100 3450 60  0001 C CNN
+	1    5100 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -393,9 +393,9 @@ F 3 "" H 3200 2000 60  0000 C CNN
 $EndComp
 Text Label 5500 2300 0    40   ~ 0
 RESET
-Text Label 4700 3000 3    40   ~ 0
+Text Label 4600 3000 3    40   ~ 0
 SWDIO
-Text Label 4400 3000 3    40   ~ 0
+Text Label 4300 3000 3    40   ~ 0
 SWDCLK
 Text Notes 1450 4900 2    60   ~ 12
 ARM SWD headers
@@ -679,7 +679,7 @@ Text Label 3800 2100 2    40   ~ 0
 TB_UP
 Text Label 3800 2200 2    40   ~ 0
 TB_DOWN
-Text Label 4300 3000 3    40   ~ 0
+Text Label 5500 2400 0    40   ~ 0
 TB_BTN
 $Comp
 L ugl:RGB_LED D_RK1
@@ -795,11 +795,11 @@ Wire Wire Line
 	7500 3400 9500 3400
 Wire Wire Line
 	9850 3400 9850 2450
-Text Label 7500 2600 0    50   ~ 0
-TPM0_CH0
-Text Label 7500 2700 0    50   ~ 0
-TPM0_CH1
 Text Label 7500 2800 0    50   ~ 0
+TPM0_CH0
+Text Label 7500 2600 0    50   ~ 0
+TPM0_CH1
+Text Label 7500 2700 0    50   ~ 0
 TPM0_CH2
 Text Label 7500 3000 0    50   ~ 0
 TPM0_CH3
@@ -814,14 +814,14 @@ TPM1_CH1
 Text Label 7500 3400 0    50   ~ 0
 TPM2_CH0
 Wire Wire Line
-	4950 3000 4950 3100
+	5000 3000 5000 3100
 Wire Wire Line
-	4950 3100 5050 3100
+	5000 3100 5100 3100
 Wire Wire Line
-	5050 3100 5050 3450
+	5100 3100 5100 3450
 Wire Wire Line
-	5050 3000 5050 3100
-Connection ~ 5050 3100
+	5100 3000 5100 3100
+Connection ~ 5100 3100
 Wire Wire Line
 	3200 1700 3200 1750
 Wire Wire Line
@@ -845,7 +845,7 @@ Text Label 5500 2200 0    50   ~ 0
 TPM1_CH0
 Text Label 5500 2100 0    50   ~ 0
 TPM1_CH1
-Text Label 4500 3000 3    50   ~ 0
+Text Label 4400 3000 3    50   ~ 0
 TPM2_CH0
 Wire Wire Line
 	6150 2300 5500 2300
@@ -907,9 +907,8 @@ F 3 "" H 4600 2200 60  0000 C CNN
 	1    4650 2150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5500 2400
-NoConn ~ 4800 3000
-NoConn ~ 4600 3000
+NoConn ~ 4700 3000
+NoConn ~ 4500 3000
 Wire Wire Line
 	3800 1850 3700 1850
 Wire Wire Line
@@ -1034,4 +1033,10 @@ Wire Wire Line
 	9550 3300 9700 3300
 Wire Wire Line
 	9700 3400 9850 3400
+Wire Wire Line
+	4900 3000 4900 3100
+Wire Wire Line
+	4900 3100 5000 3100
+Connection ~ 5000 3100
+NoConn ~ 4200 3000
 $EndSCHEMATC
