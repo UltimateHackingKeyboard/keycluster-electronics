@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-2")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -12,7 +12,7 @@
   (page A3)
   (title_block
     (title "UHK Key Cluster Module - Trackball Board")
-    (rev 1.1.0)
+    (rev 1.2.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -416,16 +416,13 @@
   (gr_arc (start 193.77729 154.054501) (end 193.02729 154.054501) (angle -180) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C6F))
   (gr_arc (start 205.382248 150.782505) (end 204.420921 150.506909) (angle -90) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C6E))
   (gr_arc (start 200.187782 143.931454) (end 200.937782 143.931454) (angle -180) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C6D))
-  (gr_text v1.1.0 (at 196.6 145 17) (layer B.SilkS) (tstamp 5D2EFBFC)
+  (gr_text v1.2.0 (at 196.6 145 17) (layer B.SilkS) (tstamp 5D2EFBFC)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
 
   (via (at 196.4 143.95) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 1))
   (segment (start 198.5 149.1) (end 198.5 149.9) (width 0.254) (layer B.Cu) (net 1))
   (via (at 198.45 153.95) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 1))
-  (segment (start 200.390425 147.2438) (end 200.335876 147.189251) (width 0.254) (layer F.Cu) (net 2))
-  (segment (start 200.085625 146.939) (end 200.335876 147.189251) (width 0.254) (layer F.Cu) (net 2))
-  (segment (start 199.9996 146.939) (end 200.085625 146.939) (width 0.254) (layer F.Cu) (net 2))
   (segment (start 203.4 155.03982) (end 203.58982 154.85) (width 0.254) (layer F.Cu) (net 1))
   (via (at 204.35 154.85) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 1))
   (segment (start 203.58982 154.85) (end 204.35 154.85) (width 0.254) (layer F.Cu) (net 1))
@@ -440,6 +437,9 @@
   (segment (start 197.65 151.9) (end 198.0104 151.9) (width 0.3048) (layer F.Cu) (net 1))
   (via (at 198.6026 151.3078) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 1))
   (segment (start 198.6026 150.2664) (end 197.485 149.1488) (width 0.508) (layer B.Cu) (net 1))
+  (segment (start 200.390425 147.2438) (end 200.335876 147.189251) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 200.085625 146.939) (end 200.335876 147.189251) (width 0.254) (layer F.Cu) (net 2))
+  (segment (start 199.9996 146.939) (end 200.085625 146.939) (width 0.254) (layer F.Cu) (net 2))
   (segment (start 199 146.999237) (end 199 149.1) (width 0.254) (layer B.Cu) (net 2))
   (via (at 199.009 147.193) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 2))
   (segment (start 199.009 147.193) (end 199 146.999237) (width 0.254) (layer B.Cu) (net 2))
