@@ -12,7 +12,7 @@
   (page A3)
   (title_block
     (title "UHK Key Cluster Module - Trackball Board")
-    (rev 1.2.0)
+    (rev 2.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -416,7 +416,7 @@
   (gr_arc (start 193.77729 154.054501) (end 193.02729 154.054501) (angle -180) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C6F))
   (gr_arc (start 205.382248 150.782505) (end 204.420921 150.506909) (angle -90) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C6E))
   (gr_arc (start 200.187782 143.931454) (end 200.937782 143.931454) (angle -180) (layer Edge.Cuts) (width 0.01) (tstamp 5D555C6D))
-  (gr_text v1.2.0 (at 196.6 145 17) (layer B.SilkS) (tstamp 5D2EFBFC)
+  (gr_text v2.0.0 (at 196.6 145 17) (layer B.SilkS) (tstamp 5D2EFBFC)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
 
