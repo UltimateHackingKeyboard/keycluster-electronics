@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ugl:CONN_7 P8
-U 1 1 5D0AD355
-P 7700 3500
-F 0 "P8" V 7650 3450 60  0000 L CNN
-F 1 "CONN_7" V 7750 3350 60  0000 L CNN
-F 2 "UGL:FFC_Connector_51281-0794" H 7700 3550 60  0001 C CNN
-F 3 "" H 7700 3550 60  0000 C CNN
-	1    7700 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 5D0ADD3A
 P 7250 3900
@@ -54,16 +43,6 @@ Wire Wire Line
 	7350 3800 7250 3800
 Wire Wire Line
 	7250 3800 7250 3900
-Text Label 7350 3500 2    40   ~ 0
-TB_UP
-Text Label 7350 3400 2    40   ~ 0
-TB_DOWN
-Text Label 7350 3300 2    40   ~ 0
-TB_LEFT
-Text Label 7350 3600 2    40   ~ 0
-TB_RIGHT
-Text Label 7350 3700 2    40   ~ 0
-TB_BTN
 Wire Notes Line
 	4850 7800 4800 7800
 $Comp
@@ -258,4 +237,25 @@ Wire Wire Line
 	4250 2450 4700 2450
 Wire Wire Line
 	4600 2550 4600 3200
+Text Label 7350 3700 2    40   ~ 0
+TB_BTN
+Text Label 7350 3600 2    40   ~ 0
+TB_RIGHT
+Text Label 7350 3500 2    40   ~ 0
+TB_UP
+Text Label 7350 3400 2    40   ~ 0
+TB_DOWN
+Text Label 7350 3300 2    40   ~ 0
+TB_LEFT
+$Comp
+L ugl:CONN_7 P8
+U 1 1 5D0AD355
+P 7700 3500
+F 0 "P8" V 7650 3450 60  0000 L CNN
+F 1 "CONN_7" V 7750 3350 60  0000 L CNN
+F 2 "UGL:FFC_Connector_51281-0794" H 7700 3550 60  0001 C CNN
+F 3 "" H 7700 3550 60  0000 C CNN
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
