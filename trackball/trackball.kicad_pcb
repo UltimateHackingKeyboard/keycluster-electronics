@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 50)
+    (drawings 52)
     (tracks 66)
     (zones 0)
     (modules 7)
@@ -24,7 +24,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -346,6 +346,12 @@
     (pad 4 smd rect (at -2.225 -1.75 230) (size 0.7 1.1) (layers F.Cu F.Paste F.Mask))
   )
 
+  (gr_text "PCB ID:" (at 201.1 151.7) (layer B.SilkS) (tstamp 5E6D22AE)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text keycluster_trackball (at 200 152.9) (layer B.SilkS) (tstamp 5E6D21D6)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 209 142.2) (end 200.7 142.2) (layer Margin) (width 0.15))
   (dimension 5 (width 0.15) (layer Margin)
     (gr_text "5.000 mm" (at 195.3 167.1 90) (layer Margin)
@@ -388,7 +394,7 @@
   (gr_circle (center 203.94 146.06) (end 203.99 146.06) (layer Eco2.User) (width 0.1) (tstamp 5D5D4C91))
   (gr_circle (center 203.94 153.94) (end 203.99 153.94) (layer Eco2.User) (width 0.1) (tstamp 5D5D4C91))
   (gr_circle (center 196.06 146.06) (end 196.11 146.06) (layer Eco2.User) (width 0.1))
-  (gr_text v2.1.0 (at 196.6 145 17) (layer B.SilkS) (tstamp 5D2EFBFC)
+  (gr_text 2.1.0 (at 199.3 154.2) (layer B.SilkS) (tstamp 5D2EFBFC)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_arc (start 205.499996 144.077151) (end 206 144.077151) (angle -74.05780781) (layer Edge.Cuts) (width 0.01))
