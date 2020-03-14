@@ -126,7 +126,7 @@
     (add_net GND)
   )
 
-  (module UGL:FPC_Pads_7pin_0.5mm (layer B.Cu) (tedit 5E6D0592) (tstamp 5E6D0D37)
+  (module UGL:FPC_Pads_7pin_0.5mm locked (layer B.Cu) (tedit 5E6D0592) (tstamp 5E6D0D37)
     (at 200 169.4 180)
     (path /5D0AD355)
     (attr virtual)
@@ -152,7 +152,7 @@
       (net 1 GND) (clearance 0.1778))
   )
 
-  (module UGL:SOT-23 (layer F.Cu) (tedit 5C6C5CCD) (tstamp 5E34357F)
+  (module UGL:SOT-23 locked (layer F.Cu) (tedit 5C6C5CCD) (tstamp 5E34357F)
     (at 196.4 146.06)
     (tags SOT23)
     (path /5E3461A3)
@@ -180,7 +180,7 @@
     )
   )
 
-  (module UGL:SOT-23 (layer F.Cu) (tedit 5C6C5CCD) (tstamp 5E3DC26D)
+  (module UGL:SOT-23 locked (layer F.Cu) (tedit 5C6C5CCD) (tstamp 5E3DC26D)
     (at 203.4 146.06 90)
     (tags SOT23)
     (path /5E3473A7)
@@ -208,7 +208,7 @@
     )
   )
 
-  (module UGL:SOT-23 (layer F.Cu) (tedit 5C6C5CCD) (tstamp 5E6D04A5)
+  (module UGL:SOT-23 locked (layer F.Cu) (tedit 5C6C5CCD) (tstamp 5E6D04A5)
     (at 203.4 153.7 180)
     (tags SOT23)
     (path /5E344F5E)
@@ -314,7 +314,7 @@
     (pad "" np_thru_hole circle (at -4 0) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask))
   )
 
-  (module UGL:TL3315NF250Q (layer F.Cu) (tedit 5CE3F154) (tstamp 5E6D0464)
+  (module UGL:TL3315NF250Q locked (layer F.Cu) (tedit 5CE3F154) (tstamp 5E6D0464)
     (at 200 150 50)
     (path /5D13A78E)
     (fp_text reference BTN1 (at -0.277392 -2.508596 50) (layer F.SilkS)
