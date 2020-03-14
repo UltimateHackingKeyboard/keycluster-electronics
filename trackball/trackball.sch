@@ -67,17 +67,6 @@ TB_BTN
 Wire Notes Line
 	4850 7800 4800 7800
 $Comp
-L ugl:C C1
-U 1 1 5D12DC87
-P 4400 2550
-F 0 "C1" H 4400 2650 40  0000 C CNN
-F 1 "0.1uF" H 4400 2440 40  0000 C CNN
-F 2 "UGL:SM0603" H 4400 2550 60  0001 C CNN
-F 3 "" H 4400 2550 60  0000 C CNN
-	1    4400 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L ugl:SPST BTN1
 U 1 1 5D13A78E
 P 6900 4500
@@ -136,8 +125,6 @@ F 3 "" H 4250 2300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4700 2550 4600 2550
-Wire Wire Line
-	4600 2550 4600 2700
 $Comp
 L power:GND #PWR02
 U 1 1 5D152DBF
@@ -159,19 +146,7 @@ Wire Wire Line
 	4600 3200 4700 3200
 Connection ~ 4600 3200
 Wire Wire Line
-	4400 2650 4400 2700
-Wire Wire Line
-	4400 2700 4600 2700
-Connection ~ 4600 2700
-Wire Wire Line
-	4600 2700 4600 3200
-Wire Wire Line
-	4700 2450 4400 2450
-Wire Wire Line
 	4250 2450 4250 2300
-Connection ~ 4400 2450
-Wire Wire Line
-	4400 2450 4250 2450
 Wire Wire Line
 	4250 2450 4250 3100
 Connection ~ 4250 2450
@@ -279,4 +254,8 @@ Wire Wire Line
 	4600 4500 4600 4600
 Wire Wire Line
 	4600 3850 4600 4500
+Wire Wire Line
+	4250 2450 4700 2450
+Wire Wire Line
+	4600 2550 4600 3200
 $EndSCHEMATC
