@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 94)
+    (drawings 97)
     (tracks 735)
     (zones 0)
     (modules 37)
@@ -1128,7 +1128,7 @@
     (pad "" np_thru_hole circle (at 5.08 0 150) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
   )
 
-  (module UGL:CMI126603D08 locked (layer F.Cu) (tedit 5DB56223) (tstamp 5D0A812F)
+  (module UGL:CMI126603D08 locked (layer F.Cu) (tedit 5DB56223) (tstamp 5E717E5B)
     (at 132.254409 120.600007)
     (path /5CE50DFF)
     (fp_text reference SW_MLK1 (at 0 -3.8) (layer F.SilkS)
@@ -1539,6 +1539,15 @@
     )
   )
 
+  (gr_text ENTER (at 154.509512 115.010302 330) (layer F.SilkS) (tstamp 5E7187F4)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
+  (gr_text BACKSPACE (at 132.209512 109.410302) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
+  (gr_text ESC (at 143.209512 90.810302) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_line (start 142.409512 113.37881) (end 142.809512 112.97881) (layer B.SilkS) (width 0.15))
   (gr_line (start 142.409512 112.010302) (end 142.809512 111.610302) (layer B.SilkS) (width 0.15))
   (gr_line (start 129.309512 115.510302) (end 128.109512 115.510302) (layer B.SilkS) (width 0.15))
