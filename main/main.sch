@@ -782,23 +782,23 @@ Wire Wire Line
 	7500 3400 9500 3400
 Wire Wire Line
 	9850 3400 9850 2450
-Text Label 7500 2800 0    50   ~ 0
+Text Label 7500 2800 0    40   ~ 0
 TPM0_CH0
-Text Label 7500 2600 0    50   ~ 0
+Text Label 7500 2600 0    40   ~ 0
 TPM0_CH1
-Text Label 7500 2700 0    50   ~ 0
+Text Label 7500 2700 0    40   ~ 0
 TPM0_CH2
-Text Label 7500 3000 0    50   ~ 0
+Text Label 7500 3000 0    40   ~ 0
 TPM0_CH3
-Text Label 7500 2900 0    50   ~ 0
+Text Label 7500 2900 0    40   ~ 0
 TPM0_CH4
-Text Label 7500 3100 0    50   ~ 0
+Text Label 7500 3100 0    40   ~ 0
 TPM0_CH5
-Text Label 7500 3200 0    50   ~ 0
+Text Label 7500 3200 0    40   ~ 0
 TPM1_CH0
-Text Label 7500 3300 0    50   ~ 0
+Text Label 7500 3300 0    40   ~ 0
 TPM1_CH1
-Text Label 7500 3400 0    50   ~ 0
+Text Label 7500 3400 0    40   ~ 0
 TPM2_CH0
 Wire Wire Line
 	5000 3000 5000 3100
@@ -816,23 +816,23 @@ Wire Wire Line
 Connection ~ 3200 1750
 Wire Wire Line
 	3200 1750 3200 1800
-Text Label 5500 2000 0    50   ~ 0
+Text Label 5500 2000 0    40   ~ 0
 TPM0_CH0
-Text Label 5500 1900 0    50   ~ 0
+Text Label 5500 1900 0    40   ~ 0
 TPM0_CH1
-Text Label 5500 1800 0    50   ~ 0
+Text Label 5500 1800 0    40   ~ 0
 TPM0_CH2
-Text Label 5000 1300 1    50   ~ 0
+Text Label 5000 1300 1    40   ~ 0
 TPM0_CH3
-Text Label 4600 1300 1    50   ~ 0
+Text Label 4600 1300 1    40   ~ 0
 TPM0_CH4
-Text Label 4500 1300 1    50   ~ 0
+Text Label 4500 1300 1    40   ~ 0
 TPM0_CH5
-Text Label 5500 2200 0    50   ~ 0
+Text Label 5500 2200 0    40   ~ 0
 TPM1_CH0
-Text Label 5500 2100 0    50   ~ 0
+Text Label 5500 2100 0    40   ~ 0
 TPM1_CH1
-Text Label 4400 3000 3    50   ~ 0
+Text Label 4400 3000 3    40   ~ 0
 TPM2_CH0
 Wire Wire Line
 	6150 2300 5500 2300
