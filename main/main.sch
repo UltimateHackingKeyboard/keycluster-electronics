@@ -22,8 +22,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 3000 1900 3000
 Wire Wire Line
-	1600 2800 1900 2800
-Wire Wire Line
 	1350 2450 1900 2450
 $Comp
 L ICEDLeft:PWR_FLAG #FLG08
@@ -39,24 +37,13 @@ $EndComp
 Wire Wire Line
 	2550 2650 2550 2350
 Wire Wire Line
-	1500 2750 1500 3000
-Wire Wire Line
 	2550 2150 2550 2100
 Wire Wire Line
 	5850 2700 5850 3050
 Wire Wire Line
-	1350 2750 1500 2750
-Wire Wire Line
 	2200 2800 2350 2800
-Connection ~ 1500 2750
-Wire Wire Line
-	1500 2650 1500 2750
 Wire Wire Line
 	1500 2650 1350 2650
-Wire Wire Line
-	1350 2550 1600 2550
-Wire Wire Line
-	1600 2550 1600 2800
 Wire Wire Line
 	2200 2450 2350 2450
 Wire Wire Line
@@ -535,7 +522,7 @@ U 1 1 5CE5CA9E
 P 5650 6300
 F 0 "SW_LK1" H 5650 6250 40  0000 C CNN
 F 1 "S01_Socket" H 5650 6200 40  0001 C CNN
-F 2 "UGL:S01_Hybrid_Socket" H 5650 6300 60  0001 C CNN
+F 2 "UGL:S01_Hybrid_Socket_Backslash" H 5650 6300 60  0001 C CNN
 F 3 "" H 5650 6300 60  0000 C CNN
 	1    5650 6300
 	0    1    1    0   
@@ -1039,4 +1026,13 @@ Wire Wire Line
 	4900 3100 5000 3100
 Connection ~ 5000 3100
 NoConn ~ 4200 3000
+Wire Wire Line
+	1600 2800 1900 2800
+Wire Wire Line
+	1350 2550 1600 2550
+Wire Wire Line
+	1600 2550 1600 2800
+Wire Wire Line
+	1500 2650 1500 3000
+NoConn ~ 1350 2750
 $EndSCHEMATC
