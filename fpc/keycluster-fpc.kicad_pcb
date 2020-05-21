@@ -66,7 +66,7 @@
     (visible_elements FFFFE77F)
     (pcbplotparams
       (layerselection 0x011e0_ffffffff)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
