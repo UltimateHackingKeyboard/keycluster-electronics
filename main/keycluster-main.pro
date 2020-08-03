@@ -1,6 +1,6 @@
-update=13/01/2020 09:44:45
+update=Mon 03 Aug 2020 22:22:09 CEST
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -249,6 +249,17 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1778
+TrackWidth=0.2032
+ViaDiameter=1.0668
+ViaDrill=0.7112
+uViaDiameter=0.7112
+uViaDrill=0.381
+dPairWidth=0.254
+dPairGap=0.254
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Minimum clearance
+Clearance=0.001
 TrackWidth=0.2032
 ViaDiameter=1.0668
 ViaDrill=0.7112
