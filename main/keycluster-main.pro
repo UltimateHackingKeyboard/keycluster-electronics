@@ -1,4 +1,4 @@
-update=Mon 03 Aug 2020 22:22:09 CEST
+update=Tue 04 Aug 2020 10:50:21 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -37,7 +37,7 @@ MinViaDiameter=0.635
 MinViaDrill=0.381
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
-MinHoleToHole=0.25
+MinHoleToHole=0.23
 TrackWidth1=0.2032
 TrackWidth2=0.2032
 TrackWidth3=0.254
@@ -248,7 +248,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.1778
+Clearance=0.001
 TrackWidth=0.2032
 ViaDiameter=1.0668
 ViaDrill=0.7112
@@ -258,8 +258,8 @@ dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=Minimum clearance
-Clearance=0.001
+Name=Normal clearance
+Clearance=0.1778
 TrackWidth=0.2032
 ViaDiameter=1.0668
 ViaDrill=0.7112
