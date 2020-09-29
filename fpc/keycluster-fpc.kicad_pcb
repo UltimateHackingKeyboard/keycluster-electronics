@@ -5,7 +5,7 @@
     (drawings 22)
     (tracks 58)
     (zones 0)
-    (modules 4)
+    (modules 3)
     (nets 1)
   )
 
@@ -158,24 +158,6 @@
     (pad 3 smd rect (at -0.5 0) (size 0.3 2.5) (layers B.Cu B.Mask))
     (pad 2 smd rect (at -1 0) (size 0.3 2.5) (layers B.Cu B.Mask))
     (pad 1 smd rect (at -1.5 0) (size 0.3 2.5) (layers B.Cu B.Mask))
-  )
-
-  (module UGL:Keycluster_FPC_7x0.5_pads (layer F.Cu) (tedit 5F6DD7D6) (tstamp 5F6DD912)
-    (at 213 1010)
-    (attr smd)
-    (fp_text reference REF** (at 0 3.65) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Keycluster_FPC_7x0.5_pads (at 0 4.8) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 7 smd rect (at 1.5 0) (size 0.3 2.5) (layers F.Cu F.Mask))
-    (pad 6 smd rect (at 1 0) (size 0.3 2.5) (layers F.Cu F.Mask))
-    (pad 5 smd rect (at 0.5 0) (size 0.3 2.5) (layers F.Cu F.Mask))
-    (pad 4 smd rect (at 0 0) (size 0.3 2.5) (layers F.Cu F.Mask))
-    (pad 3 smd rect (at -0.5 0) (size 0.3 2.5) (layers F.Cu F.Mask))
-    (pad 2 smd rect (at -1 0) (size 0.3 2.5) (layers F.Cu F.Mask))
-    (pad 1 smd rect (at -1.5 0) (size 0.3 2.5) (layers F.Cu F.Mask))
   )
 
   (gr_text "keycluster_fpc\n2.0.0" (at 213 119.3 90) (layer B.SilkS) (tstamp 5F6DE3C0)
