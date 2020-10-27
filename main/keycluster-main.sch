@@ -39,7 +39,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 2150 2550 2100
 Wire Wire Line
-	5800 2600 5800 2950
+	5000 3300 5350 3300
 Wire Wire Line
 	2200 2800 2350 2800
 Wire Wire Line
@@ -80,9 +80,9 @@ F 3 "" H 2100 2150 60  0001 C CNN
 	1    2100 2150
 	1    0    0    -1  
 $EndComp
-Text Label 5800 2950 1    40   ~ 0
+Text Label 5350 3300 2    40   ~ 0
 TEST_LED_R
-Text Notes 5900 3400 2    40   ~ 0
+Text Notes 5350 3200 0    40   ~ 0
 test LED
 $Comp
 L power:+3V3 #PWR032
@@ -126,37 +126,37 @@ $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 577F3ED2
-P 5800 3200
-F 0 "#PWR029" H 5800 3200 30  0001 C CNN
-F 1 "GND" H 5800 3130 30  0001 C CNN
-F 2 "" H 5800 3200 60  0000 C CNN
-F 3 "" H 5800 3200 60  0000 C CNN
-	1    5800 3200
-	1    0    0    -1  
+P 5600 3300
+F 0 "#PWR029" H 5600 3300 30  0001 C CNN
+F 1 "GND" H 5600 3230 30  0001 C CNN
+F 2 "" H 5600 3300 60  0000 C CNN
+F 3 "" H 5600 3300 60  0000 C CNN
+	1    5600 3300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L UGL:LED D7
 U 1 1 577F2A5A
-P 5800 3050
-F 0 "D7" H 5800 3150 40  0000 C CNN
-F 1 "LED" H 5800 2950 40  0001 C CNN
-F 2 "UGL:SM0603_Diode" H 5800 3050 60  0001 C CNN
-F 3 "" H 5800 3050 60  0000 C CNN
-	1    5800 3050
-	0    -1   -1   0   
+P 5450 3300
+F 0 "D7" H 5450 3400 40  0000 C CNN
+F 1 "LED" H 5450 3200 40  0001 C CNN
+F 2 "UGL:SM0603_Diode" H 5450 3300 60  0001 C CNN
+F 3 "" H 5450 3300 60  0000 C CNN
+	1    5450 3300
+	-1   0    0    1   
 $EndComp
 $Comp
 L UGL:R R2
 U 1 1 577F1EDC
-P 5800 2500
-F 0 "R2" H 5800 2570 40  0000 C CNN
-F 1 "330" H 5800 2430 40  0000 C CNN
-F 2 "UGL:SM0603" H 5800 2500 60  0001 C CNN
-F 3 "" H 5800 2500 60  0000 C CNN
-	1    5800 2500
-	0    1    1    0   
+P 4900 3300
+F 0 "R2" H 4900 3370 40  0000 C CNN
+F 1 "330" H 4900 3230 40  0000 C CNN
+F 2 "UGL:SM0603" H 4900 3300 60  0001 C CNN
+F 3 "" H 4900 3300 60  0000 C CNN
+	1    4900 3300
+	1    0    0    -1  
 $EndComp
-Text Label 5450 2400 0    40   ~ 0
+Text Label 4800 2950 3    40   ~ 0
 TEST_LED
 $Comp
 L power:GND #PWR026
@@ -653,11 +653,11 @@ Text Label 3850 1900 2    40   ~ 0
 TB_RIGHT
 Text Label 4700 1350 1    40   ~ 0
 TB_UP
-Text Label 3850 2300 2    40   ~ 0
+Text Label 4800 1350 1    40   ~ 0
 TB_DOWN
-Text Label 3850 2000 2    40   ~ 0
+Text Label 5450 2400 0    40   ~ 0
 SW5
-Text Label 4400 2950 3    40   ~ 0
+Text Label 4900 2950 3    40   ~ 0
 SW4
 Text Label 4500 2950 3    40   ~ 0
 SW2
@@ -668,9 +668,7 @@ SW3
 Text Label 5450 2200 0    40   ~ 0
 SW6
 Wire Wire Line
-	5800 3200 5800 3150
-Wire Wire Line
-	5450 2400 5800 2400
+	5600 3300 5550 3300
 Wire Wire Line
 	6100 6200 6100 6100
 Wire Wire Line
@@ -731,9 +729,9 @@ F 3 "" H 4150 900 60  0000 C CNN
 $EndComp
 Text Label 5450 2000 0    40   ~ 0
 SCL
-NoConn ~ 4800 2950
+NoConn ~ 3850 2000
 NoConn ~ 4900 1350
-NoConn ~ 4800 1350
+NoConn ~ 3850 2300
 Wire Wire Line
 	1600 2800 1900 2800
 Wire Wire Line
@@ -766,7 +764,7 @@ Wire Wire Line
 	3500 2350 3250 2350
 Connection ~ 3250 2350
 NoConn ~ 3850 2400
-Text Label 4900 2950 3    40   ~ 0
+Text Label 4400 2950 3    40   ~ 0
 SDB
 $Comp
 L UGL:IS31FL3199 U2
@@ -840,17 +838,6 @@ NoConn ~ 8700 3300
 Wire Wire Line
 	8700 3400 8700 3500
 Connection ~ 8700 3500
-$Comp
-L UGL:C C6
-U 1 1 5F9B1F19
-P 7700 3100
-F 0 "C6" H 7650 2950 40  0000 C CNN
-F 1 "0.22uF" H 7650 3000 40  0000 C CNN
-F 2 "UGL:SM0603" H 7700 3100 60  0001 C CNN
-F 3 "" H 7700 3100 60  0000 C CNN
-	1    7700 3100
-	-1   0    0    1   
-$EndComp
 $Comp
 L UGL:RGB_LED D2
 U 1 1 5F9BB516
@@ -1044,14 +1031,10 @@ Text Label 4700 2950 3    40   ~ 0
 CLK
 Text Notes 7850 3950 0    50   ~ 0
 I2C address is: 0x64
-Wire Wire Line
-	7600 3100 7500 3100
-Wire Wire Line
-	7500 3100 7500 3050
-Wire Wire Line
-	7500 3050 7400 3050
-Connection ~ 7400 3050
 Connection ~ 7600 2100
 Wire Wire Line
 	7600 2100 7800 2100
+NoConn ~ 7800 3100
+Wire Wire Line
+	4800 2950 4800 3300
 $EndSCHEMATC
