@@ -778,17 +778,6 @@ F 3 "" H 7600 2200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR01
-U 1 1 5F99318A
-P 7600 2100
-F 0 "#PWR01" H 7600 1950 50  0001 C CNN
-F 1 "+3V3" H 7600 2250 40  0000 C CNN
-F 2 "" H 7600 2100 50  0000 C CNN
-F 3 "" H 7600 2100 50  0000 C CNN
-	1    7600 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 5F99C278
 P 7600 2300
@@ -973,7 +962,6 @@ Text Label 4900 1350 1    40   ~ 0
 CLK
 Text Notes 7850 3950 0    50   ~ 0
 I2C address is: 0x64
-Connection ~ 7600 2100
 Wire Wire Line
 	7600 2100 7800 2100
 NoConn ~ 7800 3100
@@ -1037,4 +1025,16 @@ Wire Wire Line
 	8700 3000 10550 3000
 Wire Wire Line
 	10550 2000 10550 3000
+$Comp
+L ICEDLeft:+5V #PWR?
+U 1 1 5FCB0483
+P 7600 2100
+F 0 "#PWR?" H 7600 1950 50  0001 C CNN
+F 1 "+5V" H 7600 2250 40  0000 C CNN
+F 2 "" H 7600 2100 50  0000 C CNN
+F 3 "" H 7600 2100 50  0000 C CNN
+	1    7600 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7600 2100
 $EndSCHEMATC
