@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/keycluster-electronics/main/keycluster-main.sch)
-    (date "Fri 04 Dec 2020 21:57:26 CET")
+    (date "Fri 04 Dec 2020 22:06:56 CET")
     (tool "Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -172,7 +172,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5FA019BD))
     (comp (ref R4)
-      (value 20K)
+      (value 200K)
       (footprint UGL:SM0603)
       (libsource (lib UGL) (part R) (description Resistance))
       (sheetpath (names /) (tstamps /))
